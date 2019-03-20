@@ -1,0 +1,12 @@
+#ifndef _KEY_POWER_ON_H
+#define _KEY_POWER_ON_H
+
+
+typedef enum {
+	NO_KEY,
+	BLUE_CHECK
+}KEY_VAL;
+
+MCU_STATE mcu_state=POWER_OFF;
+
+#endif //_KEY_POWER_ON_H
